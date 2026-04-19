@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  //scriptsプロパティ：サーバーとして扱いたいファイルを記載するプロパティ。
+  //dev:npm run devとコマンドを叩いたらサーバーが起動する。
   "scripts": {
+    //nodemon：「node」より便利（インストール必要）。通常、サーバー側に変更があったならその度にサーバーを再起動しないといけない。
+    //しかし、nodemonであれば再起動しなくてもページをリロードするだけで変更が適用される。
+    //"dev": "node server.js"
     "dev": "nodemon server.js"
   },
   "keywords": [],
