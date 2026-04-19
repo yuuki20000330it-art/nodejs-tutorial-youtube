@@ -1,5 +1,7 @@
 console.log("welcome nodejs");
 const PORT = 8080;
+//fs:node.jsがあらかじめ用意しているライブラリ。ファイルを処理するために使うモジュール。
+//readFileSync:非同期でファイルを読み込む関数。
 const html = require("fs").readFileSync("./index.html");
 const http = require("http");
 //webサーバーを作成
