@@ -31,4 +31,5 @@ server.listen(PORT, () => {
 });
 
 //npm run devをコマンドで実行するとサーバーが起動し（server.jsが上から読み込まれ）、server running!がターミナルに表示される。
-//
+//この時にクライアントからリクエストが送信されてきた時の処理（6-27行目）が登録される。
+//補足：npmはNode Package Managerの略。ライブラリを追加したりすることができる。
