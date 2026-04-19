@@ -29,3 +29,6 @@ const server = http.createServer((req, res) => {
 server.listen(PORT, () => {
   console.log("server running!");
 });
+
+//npm run devをコマンドで実行するとサーバーが起動し（server.jsが上から読み込まれ）、server running!がターミナルに表示される。
+//
